@@ -23,7 +23,7 @@ public void fractal(int x, int y, int siz) {
   ellipse(x, y+siz, siz, siz);
   ellipse(x, y-siz, siz, siz);
   ellipse(x, y, siz, siz);
-  ellipse(x, y, siz, siz);
+
   fractal(x, y, siz-30);
   }
 }
